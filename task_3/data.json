@@ -1,12 +1,37 @@
 [
   {
     "id": "1",
-    "name": "sadasd",
-    "description": "asdas"
+    "name": "Гиацинт",
+    "latin_name": "Hyacinthus",
+    "is_red_book_flower": "Нет",
+    "price": "25"
   },
   {
-    "id": "23",
-    "name": "adsa",
-    "description": "sadasd"
+    "id": "2",
+    "name": "Пион",
+    "latin_name": "Paeonia",
+    "is_red_book_flower": "Нет",
+    "price": "50"
+  },
+  {
+    "id": "3",
+    "name": "Гвоздика",
+    "latin_name": "Dianthus",
+    "is_red_book_flower": "Нет",
+    "price": "35"
+  },
+  {
+    "id": "4",
+    "name": "Тюльпан",
+    "latin_name": "Tulipa",
+    "is_red_book_flower": "Нет",
+    "price": "45"
+  },
+  {
+    "id": "5",
+    "name": "Хризантема",
+    "latin_name": "Chrysanthemum",
+    "is_red_book_flower": "Нет",
+    "price": "55"
   }
 ]

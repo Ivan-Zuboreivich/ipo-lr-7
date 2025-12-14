@@ -1,4 +1,5 @@
 import json
+#Зуборевич, вариант 2
 print("start code...")
 
 
@@ -60,8 +61,15 @@ while True:
 
         new_record['id'] = input("Введите ID: ").strip()
         new_record['name'] = input("Введите имя: ").strip()
-        new_record['description'] = input("Введите описание: ").strip()
-
+        new_record['latin_name'] = input("Введите научное название: ").strip()
+        iw = input("Является ли цветок краснокнижным?")
+        print("1.Да")
+        print("2.Нет")
+        if (iw == 1):
+            new_record['is_red_book_flower'] = "Да"
+        else:
+            new_record['is_red_book_flower'] = "Нет"
+        new_record['price'] = input("Введите цену: ").strip()
         with open("data.json", 'r', encoding='utf-8') as file:
             data = json.load(file)
 
@@ -84,7 +92,7 @@ while True:
         for record in data:
             if record.get('id') == record_id:
                 found = True
-                print("Удалена запись:", {record})
+                print("Удалена запись:")
             else:
                 new_data.append(record)
 
